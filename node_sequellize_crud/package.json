@@ -1,0 +1,22 @@
+{
+  "name": "node_crud_server",
+  "version": "0.0.1",
+  "description": "시퀄라이즈 crud",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "song",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mariadb": "^2.5.3",
+    "morgan": "^1.10.0",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

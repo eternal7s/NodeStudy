@@ -1,0 +1,76 @@
+######################
+# Build Directories
+######################
+/build/
+/bin/
+target/
+.idea
+classes/
+META-INF/
+logs/
+
+######################
+# Build Files
+######################
+.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+Thumbs.db
+Desktop.ini
+
+######################
+# OSX
+######################
+.DS_Store
+.svn
+._*
+.Spotlight-V100
+.Trashes
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+
+######################
+# Intellij
+######################
+.idea
+*.iml
+*.iws
+/out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+######################
+# include
+######################
+!**/lib/*
